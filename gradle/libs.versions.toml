@@ -1,0 +1,10 @@
+# https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
+
+[versions]
+junit-jupiter = "5.10.3"
+telegram = "7.10.0"
+checkstyle = "10.12.4"
+
+[libraries]
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+telegrambots-longpolling = { module = "org.telegram:telegrambots-longpolling", version.ref="telegram" }
