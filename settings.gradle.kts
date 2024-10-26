@@ -5,6 +5,7 @@ plugins {
 
 rootProject.name = "university-platform"
 include(
+    "sdu-edu-portal-connector",
     "shop-core",
     "telegram-shop-bot"
 )

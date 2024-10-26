@@ -3,8 +3,14 @@
 [versions]
 junit-jupiter = "5.10.3"
 telegram = "7.10.0"
-checkstyle = "10.12.4"
+checkstyle = "10.18.2"
+lombok = "1.18.30"
+jackson-databind = "2.14.1"
+http-client = "5.2.1"
 
 [libraries]
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
 telegrambots-longpolling = { module = "org.telegram:telegrambots-longpolling", version.ref="telegram" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson-databind" }
+http-client = { module = "org.apache.httpcomponents.client5:httpclient5", version.ref = "http-client" }
